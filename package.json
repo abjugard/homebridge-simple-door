@@ -1,0 +1,24 @@
+{
+  "name": "homebridge-simple-door",
+  "author": "Adrian Bjugård <adrian@qng.se> (https://keybase.io/bjugard)",
+  "version": "0.0.1",
+  "description": "Homebridge plugin to open a simple door via HTTP GET",
+  "license": "GPLv3",
+  "keywords": [
+    "homebridge-plugin"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/abjugard/homebridge-simple-door.git"
+  },
+  "bugs": {
+    "url": "http://github.com/abjugard/homebridge-simple-door/issues"
+  },
+  "engines": {
+    "node": ">=6.2.0",
+    "homebridge": ">=0.3.4"
+  },
+  "dependencies": {
+    "request": "^2.72.0"
+  }
+}
